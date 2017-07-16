@@ -1,12 +1,12 @@
-sets i/1*50000/;
+sets i/1*1000/;
 
 variable x(i),d(i);
 binary variable N(i);
 parameter a(i);
-a(i) = uniform(10000,20000);
+a(i) = uniform(1000,2000);
 
 parameter y(i);
-y(i) = uniform(10000,20000);;
+y(i) = uniform(1000,2000);;
 
 parameter P;
 P=52000;
