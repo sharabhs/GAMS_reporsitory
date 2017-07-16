@@ -1,4 +1,4 @@
-sets i/1*50/;
+sets i/1*40/;
 
 variable x(i),d(i);
 binary variable N(i);
