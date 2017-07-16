@@ -2,3 +2,9 @@
 *.gpr
 *.gpr
 *.~gm
+*.log
+Main_file.lst
+Main_file.log
+*.log
+*.lst
+Main_file.lxi
