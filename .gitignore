@@ -8,3 +8,6 @@ Main_file.log
 *.log
 *.lst
 Main_file.lxi
+*.lxi
+*.lst
+*.log
