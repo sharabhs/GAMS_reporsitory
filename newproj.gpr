@@ -1,1 +1,10 @@
 [PROJECT]
+
+[OPENWINDOW_1]
+FILE0=F:\Github\GAMS_reporsitory\Main_file.gms
+FILE1=F:\Github\GAMS_reporsitory\Main_file.gms
+MAXIM=1
+TOP=50
+LEFT=50
+HEIGHT=400
+WIDTH=400

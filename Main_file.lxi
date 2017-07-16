@@ -1,0 +1,94 @@
+B 2 C o m p i l a t i o n
+B 58 Equation Listing    SOLVE unitcommitment Using LP From line 33
+D 59 Objective
+D 65 powbal
+D 78 con1
+D 95 con4
+D 106 con5
+D 123 con6
+D 128 con2
+B 141 Column Listing      SOLVE unitcommitment Using LP From line 33
+E 142 x
+E 168 d
+E 187 O
+E 194 t
+E 202 dummy
+B 212 Model Statistics    SOLVE unitcommitment Using LP From line 33
+B 228 Solution Report     SOLVE unitcommitment Using LP From line 33
+F 246 Objective
+F 247 powbal
+F 253 con1
+F 293 con4
+F 331 con5
+F 332 con6
+F 338 con2
+G 373 x
+G 413 d
+G 453 O
+G 457 t
+G 458 dummy
+B 466 E x e c u t i o n
+I 467 x
+I 480 O
+B 483 Equation Listing    SOLVE unitcommitment Using LP From line 40
+D 484 Objective
+D 490 powbal
+D 503 con1
+D 514 con4
+D 525 con5
+D 542 con6
+D 547 con2
+B 560 Column Listing      SOLVE unitcommitment Using LP From line 40
+E 561 x
+E 587 d
+E 609 O
+E 616 t
+E 625 dummy
+B 635 Model Statistics    SOLVE unitcommitment Using LP From line 40
+B 651 Solution Report     SOLVE unitcommitment Using LP From line 40
+F 671 Objective
+F 672 powbal
+F 678 con1
+F 718 con4
+F 756 con5
+F 757 con6
+F 763 con2
+G 798 x
+G 838 d
+G 878 O
+G 882 t
+G 883 dummy
+B 891 E x e c u t i o n
+I 892 x
+I 899 O
+B 902 Equation Listing    SOLVE unitcommitment Using LP From line 46
+D 903 Objective
+D 909 powbal
+D 922 con1
+D 939 con4
+D 950 con5
+D 967 con6
+D 972 con2
+B 985 Column Listing      SOLVE unitcommitment Using LP From line 46
+E 986 x
+E 1012 d
+E 1031 O
+E 1038 t
+E 1046 dummy
+B 1056 Model Statistics    SOLVE unitcommitment Using LP From line 46
+B 1072 Solution Report     SOLVE unitcommitment Using LP From line 46
+F 1092 Objective
+F 1093 powbal
+F 1099 con1
+F 1139 con4
+F 1177 con5
+F 1178 con6
+F 1184 con2
+G 1219 x
+G 1259 d
+G 1299 O
+G 1303 t
+G 1304 dummy
+B 1312 E x e c u t i o n
+I 1313 x
+I 1320 O

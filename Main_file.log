@@ -1,0 +1,167 @@
+
+--- Job Main_file.gms Start 07/16/17 13:14:09 24.8.5 r61358 WEX-WEI x86 64bit/MS Windows
+GAMS 24.8.5   Copyright (C) 1987-2017 GAMS Development. All rights reserved
+Licensee: GAMS Development Corporation, Washington, DC   G871201/0000CA-ANY
+          Free Demo,  202-342-0180,  sales@gams.com,  www.gams.com   DC0000
+--- Starting compilation
+--- Main_file.gms(48) 3 Mb
+--- Starting execution: elapsed 0:00:00.047
+--- Main_file.gms(32) 4 Mb
+--- Generating LP model unitcommitment
+--- Main_file.gms(33) 4 Mb
+---   109 rows  73 columns  215 non-zeroes
+--- Executing MOSEK: elapsed 0:00:00.160
+
+MOSEK            24.8.5 r61358 Released May 10, 2017 WEI x86 64bit/MS Windows 
+
+        M O S E K       version 8.0.0.69 (Build date: 2017-5-1 16:17:13)
+        Copyright (C)   MOSEK ApS, Fruebjergvej 3, Box 16
+                        DK-2100 Copenhagen, Denmark
+                        http://www.mosek.com
+
+
+Optimizer started.
+Conic interior-point optimizer started.
+Presolve started.
+Linear dependency checker started.
+Linear dependency checker terminated.
+Eliminator - tries                  : 0                 time                   : 0.00            
+Lin. dep.  - tries                  : 1                 time                   : 0.00            
+Lin. dep.  - number                 : 0               
+Presolve terminated. Time: 0.01    
+Optimizer  - threads                : 1               
+Optimizer  - solved problem         : the primal      
+Optimizer  - Constraints            : 1
+Optimizer  - Cones                  : 1
+Optimizer  - Scalar variables       : 37                conic                  : 37              
+Optimizer  - Semi-definite variables: 0                 scalarized             : 0               
+Factor     - setup time             : 0.00              dense det. time        : 0.00            
+Factor     - ML order time          : 0.00              GP order time          : 0.00            
+Factor     - nonzeros before factor : 1                 after factor           : 1               
+Factor     - dense dim.             : 0                 flops                  : 1.45e+002       
+ITE PFEAS    DFEAS    GFEAS    PRSTATUS   POBJ              DOBJ              MU       TIME  
+0   1.7e+003 7.1e-001 1.0e+000 0.00e+000  1.131370850e+001  0.000000000e+000  1.0e+000 0.09  
+1   6.1e+002 2.6e-001 2.4e-001 -9.79e-001 2.256918887e+002  6.359281741e+002  3.7e-001 0.14  
+2   2.1e+002 9.0e-002 5.0e-002 -9.60e-001 1.883242176e+003  3.473785294e+003  1.3e-001 0.14  
+3   6.9e+001 3.0e-002 9.9e-003 -9.27e-001 9.139661514e+003  1.395673097e+004  4.2e-002 0.14  
+4   2.7e+001 1.2e-002 2.6e-003 -8.62e-001 3.140977973e+004  4.210235528e+004  1.6e-002 0.14  
+5   1.2e+001 5.2e-003 7.9e-004 -8.70e-001 4.507677350e+004  6.851537887e+004  7.3e-003 0.14  
+6   3.8e+000 1.6e-003 1.9e-004 -7.36e-001 2.792938053e+005  3.197425689e+005  2.3e-003 0.14  
+7   5.8e-001 2.5e-004 1.0e-005 -6.54e-001 1.017576011e+006  1.349398119e+006  3.5e-004 0.14  
+8   3.5e-002 1.5e-005 4.0e-007 -7.27e-001 7.343249733e+006  8.140338041e+006  2.1e-005 0.14  
+9   4.8e-003 2.1e-006 7.3e-008 2.10e-001  1.151917911e+007  1.196449125e+007  2.9e-006 0.14  
+10  7.1e-004 3.0e-007 1.2e-008 1.51e-001  1.613994937e+007  1.649270718e+007  4.3e-007 0.14  
+11  1.6e-004 6.8e-008 4.1e-009 3.40e-001  1.885268062e+007  1.901433110e+007  9.8e-008 0.14  
+12  1.5e-005 5.9e-009 1.5e-009 9.88e-001  1.989082211e+007  1.990150814e+007  9.1e-009 0.14  
+13  7.8e-007 4.3e-009 3.7e-010 1.01e+000  1.998184878e+007  1.998232597e+007  4.7e-010 0.14  
+14  6.0e-008 1.9e-008 2.8e-010 1.01e+000  1.998771892e+007  1.998775346e+007  3.6e-011 0.14  
+15  9.2e-010 5.1e-008 5.1e-008 1.00e+000  1.998826785e+007  1.998826836e+007  5.5e-013 0.14  
+16  1.6e-010 7.7e-007 2.6e-007 1.00e+000  1.998827238e+007  1.998827241e+007  9.0e-014 0.14  
+Interior-point optimizer terminated. Time: 0.14. 
+
+Optimizer terminated. Time: 0.14    
+
+Interior-point solution summary
+  Problem status  : PRIMAL_AND_DUAL_FEASIBLE
+  Solution status : OPTIMAL
+  Primal.  obj: 1.9988272378e+007   nrm: 2e+007   Viol.  con: 1e-004   var: 0e+000   cones: 3e-008 
+  Dual.    obj: 1.9988272411e+007   nrm: 4e+007   Viol.  con: 0e+000   var: 2e-008   cones: 0e+000 
+
+Return code - 0 [MSK_RES_OK]: No error occurred.
+--- Restarting execution
+--- Main_file.gms(33) 2 Mb
+--- Reading solution for model unitcommitment
+--- Executing after solve: elapsed 0:00:01.529
+--- Main_file.gms(39) 3 Mb
+--- Generating LP model unitcommitment
+--- Main_file.gms(40) 3 Mb
+---   109 rows  73 columns  215 non-zeroes
+--- Executing MOSEK: elapsed 0:00:01.542
+
+MOSEK            24.8.5 r61358 Released May 10, 2017 WEI x86 64bit/MS Windows 
+
+        M O S E K       version 8.0.0.69 (Build date: 2017-5-1 16:17:13)
+        Copyright (C)   MOSEK ApS, Fruebjergvej 3, Box 16
+                        DK-2100 Copenhagen, Denmark
+                        http://www.mosek.com
+
+*** Error Cannot open parameter file "F:\Github\GAMS_reporsitory\mosek.opt"
+*** Error Error code = 2; No such file or directory
+
+Setting up initial basis solution.
+0 basis variables are expected but only 108 basis variables are specified. (400)
+Optimizer started.
+Conic interior-point optimizer started.
+Presolve started.
+Eliminator - tries                  : 0                 time                   : 0.00            
+Lin. dep.  - tries                  : 0                 time                   : 0.00            
+Lin. dep.  - number                 : 0               
+Presolve terminated. Time: 0.00    
+Interior-point optimizer terminated. Time: 0.00. 
+
+Optimizer terminated. Time: 0.00    
+
+Interior-point solution summary
+  Problem status  : PRIMAL_INFEASIBLE
+  Solution status : PRIMAL_INFEASIBLE_CER
+  Dual.    obj: 9.0000000000e+002   nrm: 1e+000   Viol.  con: 0e+000   var: 0e+000   cones: 0e+000 
+
+Basic solution summary
+  Problem status  : UNKNOWN
+  Solution status : UNKNOWN
+  Primal.  obj: 1.9988272378e+007   nrm: 2e+007   Viol.  con: 2e+007   var: 0e+000   cones: 0e+000 
+  Dual.    obj: 3.1324222101e+007   nrm: 4e+007   Viol.  con: 0e+000   var: 4e+007   cones: 0e+000 
+
+Return code - 0 [MSK_RES_OK]: No error occurred.
+--- Restarting execution
+--- Main_file.gms(40) 2 Mb
+--- Reading solution for model unitcommitment
+--- Executing after solve: elapsed 0:00:01.736
+--- Main_file.gms(45) 3 Mb
+--- Generating LP model unitcommitment
+--- Main_file.gms(46) 3 Mb
+---   109 rows  73 columns  215 non-zeroes
+--- Executing MOSEK: elapsed 0:00:01.749
+
+MOSEK            24.8.5 r61358 Released May 10, 2017 WEI x86 64bit/MS Windows 
+
+        M O S E K       version 8.0.0.69 (Build date: 2017-5-1 16:17:13)
+        Copyright (C)   MOSEK ApS, Fruebjergvej 3, Box 16
+                        DK-2100 Copenhagen, Denmark
+                        http://www.mosek.com
+
+*** Error Cannot open parameter file "F:\Github\GAMS_reporsitory\mosek.opt"
+*** Error Error code = 2; No such file or directory
+
+Setting up initial basis solution.
+0 basis variables are expected but only 108 basis variables are specified. (400)
+Optimizer started.
+Conic interior-point optimizer started.
+Presolve started.
+Eliminator - tries                  : 0                 time                   : 0.00            
+Lin. dep.  - tries                  : 0                 time                   : 0.00            
+Lin. dep.  - number                 : 0               
+Presolve terminated. Time: 0.00    
+Interior-point optimizer terminated. Time: 0.02. 
+
+Optimizer terminated. Time: 0.02    
+
+Interior-point solution summary
+  Problem status  : PRIMAL_INFEASIBLE
+  Solution status : PRIMAL_INFEASIBLE_CER
+  Dual.    obj: 8.6000000000e+002   nrm: 1e+000   Viol.  con: 0e+000   var: 0e+000   cones: 0e+000 
+
+Basic solution summary
+  Problem status  : UNKNOWN
+  Solution status : UNKNOWN
+  Primal.  obj: 0.0000000000e+000   nrm: 0e+000   Viol.  con: 1e+003   var: 0e+000   cones: 0e+000 
+  Dual.    obj: 8.6000000000e+002   nrm: 1e+000   Viol.  con: 0e+000   var: 1e+000   cones: 0e+000 
+
+Return code - 0 [MSK_RES_OK]: No error occurred.
+--- Restarting execution
+--- Main_file.gms(46) 2 Mb
+--- Reading solution for model unitcommitment
+--- Executing after solve: elapsed 0:00:01.851
+--- Main_file.gms(48) 3 Mb
+*** Status: Normal completion
+--- Job Main_file.gms Stop 07/16/17 13:14:11 elapsed 0:00:01.858
