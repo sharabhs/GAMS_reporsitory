@@ -1,4 +1,4 @@
-sets i/1*35/;
+sets i/1*50/;
 
 variable x(i),d(i);
 binary variable N(i);
@@ -9,7 +9,7 @@ parameter y(i);
 y(i) = normal(1500,200);
 
 parameter P;
-P=8000;
+P=1500;
 x.lo(i)=0;
 
 
